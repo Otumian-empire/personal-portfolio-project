@@ -1,0 +1,157 @@
+/* set padding and margin of all element to 0 */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* kind of push the items to the center */
+.container {
+  margin: auto 10%;
+  padding: 0 5px;
+  background: #ebe4e4;
+}
+
+/* set the border bottoms */
+.border-bottom {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+/* set the default of the page to */
+.default-font {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* set font for h1-h6 */
+.header-font {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+/* set font for small size text */
+.small-font {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 12px;
+}
+
+/* set padding around huge chunk of text */
+.huge-text {
+  padding: 10px;
+  text-align: center;
+}
+
+/* make bolder */
+.make-bolder {
+  font-weight: 700;
+}
+
+/* set background color to grey */
+.bg-some-grey {
+  color: #272829;
+  background: #fcfcfc;
+}
+
+/* set padding and background for the navigation */
+.nav {
+  padding: 10px;
+  background: #e2dfdf;
+}
+
+/* set the list items in the ul to inline */
+.nav-item {
+  display: inline;
+  padding: 5px;
+}
+
+/* remove the underline and blue text of links */
+.nav-link {
+  text-decoration: none;
+  padding: 5px;
+  color: #272829;
+}
+
+/* set border bottom when link is hovered */
+.nav-link:hover {
+  text-decoration: none;
+  background-color: #cfc6d6;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+/* set margin top in parent sections */
+.section-margin {
+  margin-top: 10px;
+}
+
+/* put padding around nested sections */
+.nested-section {
+  padding: 10px;
+}
+
+/* make items in a section in to a row */
+.section-make-row {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: space-evenly;
+  padding: auto 10px;
+}
+
+/* make items in a section in to a col */
+.section-make-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: auto 10px;
+}
+
+/* display list items in a row */
+.section-list-row {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: start;
+  padding: auto 10px;
+}
+
+/* remove style type and set the bg color  */
+.section-list-item {
+  list-style-type: none;
+  margin: 2px;
+  padding: 10px;
+  background: #f5efef;
+}
+
+/* services */
+.service-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #fafafa;
+  box-shadow: 0px 2px 3px #00000080, inset 0px 0px 2px #ddd8d8;
+  margin: 10px 0;
+  padding: 15px;
+  border-left: 35px #ddd8d8 solid;
+}
+
+/* footer */
+.footer {
+  background-color: #e2dfdf;
+  width: 100%;
+  position: relative;
+  height: 100px;
+  box-sizing: border-box;
+}
+/* copyright */
+.copyright {
+  position: absolute;
+  width: 100%;
+  line-height: 40px;
+  font-size: 0.7em;
+  text-align: center;
+  bottom: 0;
+  background: #0e2031;
+  color: #fff;
+  box-shadow: 0px 2px 3px #00000080, inset 0px 0px 2px #ddd8d8;
+}
